@@ -14,8 +14,8 @@ library(dplyr)
 # Read your dataset first
 
 library(readr)
-CarRentalDataV1 <- read_csv("CarRentalDataV1.csv")
-View(CarRentalDataV1)
+my_data <- read_csv("CarRentalDataV1.csv")
+View(my_data)
 
 #Remove any NA and adjust the columns
 na_count <- sum(is.na(my_data))
